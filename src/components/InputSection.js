@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 const InputSection = ({ onGenerate, isLoading }) => {
   const [description, setDescription] = useState('');
 
-  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     onGenerate(description);
@@ -27,7 +26,7 @@ const InputSection = ({ onGenerate, isLoading }) => {
 
   return (
     <section className="input-section">
-      <h2>💭 Describe Your UI</h2>
+      <h2>Describe Your UI</h2>
       
       <form onSubmit={handleSubmit}>
         <div className="input-group">
