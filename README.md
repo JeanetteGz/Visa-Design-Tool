@@ -82,8 +82,6 @@ class ComponentSuggester {
 
 ## 🤖 AI Usage
 
-AI assistance (Claude by Anthropic) significantly enhanced this project in several key areas:
-
 ### Design System Implementation
 - **GitHub Theme Recreation**: AI helped analyze and recreate GitHub's design system with authentic color tokens, spacing, and typography
 - **Component Styling**: Generated comprehensive CSS following modern best practices and accessibility guidelines
@@ -174,20 +172,8 @@ npm start
 npm run build
 ```
 
-### Browser Support
-- Chrome 90+, Firefox 88+, Safari 14+, Edge 90+
-- Progressive enhancement ensures core functionality across older browsers
-
-## 📊 Performance Metrics
-
-- **First Contentful Paint**: < 1.2s
-- **Largest Contentful Paint**: < 2.5s
-- **Cumulative Layout Shift**: < 0.1
-- **Time to Interactive**: < 3s
-
 ## 🌟 Acknowledgments
 
 - **Visa Product Design System**: Foundation for component suggestions and design patterns
 - **GitHub**: Design system inspiration and developer UX patterns
 - **Claude AI**: Development collaboration and architectural guidance
-
