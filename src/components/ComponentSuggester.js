@@ -1,18 +1,90 @@
 class ComponentSuggester {
   constructor() {
     this.componentDatabase = {
-      input: { name: 'Input', description: 'Input field', category: 'form' },
-      button: { name: 'Button', description: 'Buttons', category: 'action' },
-      checkbox: { name: 'Checkbox', description: 'Checkbox input', category: 'form' },
-      label: { name: 'Label', description: 'Form labels', category: 'form' },
-      form: { name: 'Form', description: 'Form wrapper', category: 'layout' },
-      card: { name: 'Card', description: 'Card container', category: 'layout' },
-      link: { name: 'Link', description: 'Hyperlinks', category: 'navigation' },
-      heading: { name: 'Heading', description: 'Page headings', category: 'typography' },
-      grid: { name: 'Grid', description: 'Grid layout', category: 'layout' },
-      modal: { name: 'Modal', description: 'Overlay dialog', category: 'overlay' },
-      helperText: { name: 'HelperText', description: 'Form helper text', category: 'form' },
-      toggle: { name: 'Toggle', description: 'On/off switches', category: 'form' }
+      input: {
+        name: 'Input',
+        description: 'Text input',
+        category: 'form',
+        docsUrl: 'https://design.visa.com/components/input'
+      },
+      button: {
+        name: 'Button',
+        description: 'Action buttons',
+        category: 'action',
+        docsUrl: 'https://design.visa.com/components/button'
+      },
+      checkbox: {
+        name: 'Checkbox',
+        description: 'Checkbox input',
+        category: 'form',
+        docsUrl: 'https://design.visa.com/components/checkbox'
+      },
+      form: {
+        name: 'Form',
+        description: 'Form wrapper & patterns',
+        category: 'layout',
+        docsUrl: 'https://design.visa.com/patterns/forms'
+      },
+      card: {
+        name: 'Card',
+        description: 'Content card container',
+        category: 'layout',
+        docsUrl: 'https://design.visa.com/components/content-card'
+      },
+      link: {
+        name: 'Link',
+        description: 'Navigation and action links',
+        category: 'navigation',
+        docsUrl: 'https://design.visa.com/components/link'
+      },
+      toggle: {
+        name: 'Toggle',
+        description: 'On/off switches',
+        category: 'form',
+        docsUrl: 'https://design.visa.com/components/switch'
+      },
+      helperText: {
+        name: 'HelperText',
+        description: 'Form helper or error messages',
+        category: 'form',
+        docsUrl: 'https://design.visa.com/components/section-message' 
+      },
+      avatar: {
+        name: 'Avatar',
+        description: 'User profile image',
+        category: 'layout',
+        docsUrl: 'https://design.visa.com/components/avatar'
+      },
+      combobox: {
+        name: 'Combobox',
+        description: 'Dropdown menu for selecting options',
+        category: 'form',
+        docsUrl: 'https://design.visa.com/components/combobox'
+      },
+      table: {
+        name: 'Table',
+        description: 'Table for displaying data',
+        category: 'layout',
+        docsUrl: 'https://design.visa.com/components/table'
+      },
+      pagination: {
+        name: 'Pagination',
+        description: 'Pagination for navigating through data',
+        category: 'layout',
+        docsUrl: 'https://design.visa.com/components/pagination'
+      },
+      tabs: {
+        name: 'Tabs',
+        description: 'Tabs for displaying content',
+        category: 'layout',
+        docsUrl: 'https://design.visa.com/components/tabs'
+      },
+      tooltip: {
+        name: 'Tooltip',
+        description: 'Tooltip for displaying information',
+        category: 'layout',
+        docsUrl: 'https://design.visa.com/components/tooltip'
+      }
     };
 
     this.keywords = {
@@ -24,10 +96,14 @@ class ComponentSuggester {
       card: ['card', 'profile', 'user', 'panel'],
       link: ['link', 'forgot', 'navigate', 'anchor'],
       heading: ['heading', 'title', 'header'],
-      grid: ['grid', 'columns', 'rows'],
-      modal: ['modal', 'popup', 'dialog'],
       toggle: ['toggle', 'switch', 'on/off', 'setting', 'preferences'],
-      helperText: ['helper', 'error', 'validation']
+      helperText: ['helper', 'error', 'validation'],
+      avatar: ['avatar', 'profile', 'user', 'image'],
+      combobox: ['combobox', 'dropdown', 'select', 'menu'],
+      table: ['table', 'data', 'grid'],
+      pagination: ['pagination', 'nav', 'pager'],
+      tabs: ['tabs', 'pills', 'nav', 'menu'],
+      tooltip: ['tooltip', 'popover', 'hint', 'info']
     };
   }
 
