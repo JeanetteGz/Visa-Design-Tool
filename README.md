@@ -4,7 +4,7 @@
 
 A natural language-driven web application that helps developers quickly discover and implement Visa Product Design System components by describing their UI needs in plain English.
 
-## 🎯 Overview
+## Overview
 
 This tool bridges the gap between design intent and implementation by allowing developers to describe UI requirements ("responsive login form with remember me") and receive:
 
@@ -12,7 +12,7 @@ This tool bridges the gap between design intent and implementation by allowing d
 - **Auto-generated code snippets** that compose those components together
 - **Copy-ready implementation** for immediate use in projects
 
-## ⚡ Core Features
+## Core Features
 
 ### Natural Language Input
 - Free-form text field for describing UI requirements
@@ -80,7 +80,7 @@ class ComponentSuggester {
 - Context-aware prop suggestions and proper React hooks implementation
 - Accessibility attributes and proper semantic HTML automatically included
 
-## 🤖 AI Usage
+## AI Usage
 
 ### Design System Implementation
 - **GitHub Theme Recreation**: AI helped analyze and recreate GitHub's design system with authentic color tokens, spacing, and typography
@@ -95,7 +95,7 @@ class ComponentSuggester {
 - This README structure and content
 
 
-## 🚀 Key Assumptions & Shortcuts
+## Key Assumptions & Shortcuts
 
 ### Component Database
 - **Hardcoded Suggestions**: Used static component mappings instead of dynamic API calls for rapid prototyping
@@ -111,7 +111,7 @@ class ComponentSuggester {
 - **Session-Only**: No backend storage or user accounts for simplified deployment
 - **Local State**: All data stored in browser memory during session
 
-## 🔮 Future Improvements
+## Future Improvements
 
 ### Enhanced Intelligence
 - **Semantic Matching**: Implement vector embeddings for more nuanced component suggestions
@@ -139,7 +139,7 @@ class ComponentSuggester {
 - **Version Management**: Support for different Nova library versions
 - **Custom Components**: Integration with team-specific component libraries
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 src/
@@ -172,7 +172,7 @@ npm start
 npm run build
 ```
 
-## 🌟 Acknowledgments
+## Acknowledgments
 
 - **Visa Product Design System**: Foundation for component suggestions and design patterns
 - **GitHub**: Design system inspiration and developer UX patterns
